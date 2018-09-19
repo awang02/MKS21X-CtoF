@@ -1,9 +1,9 @@
 public class CtoFTester{
-  public static int celsiusToFahrenheit(temp) {
-    return (1.8 * temp) + 32
+  public static double celsiusToFahrenheit(double temp) {
+    return (1.8 * temp) + 32.0;
   }
-  public static int fahrenheitToCelsius(temp) {
-    return ((temp - 32) * 5) / 9
+  public static double fahrenheitToCelsius(double temp) {
+    return ((temp - 32.0) * 5.0) / 9.0;
   }
 
   public static void main(String[] args){
